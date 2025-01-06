@@ -8,7 +8,7 @@
   "main": "App.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OldSkoolCoder/spritematex16"
+    "url": "https://github.com/OldSkoolCoder/spritematex"
   },
   "scripts": {
     "dev": "webpack serve",
