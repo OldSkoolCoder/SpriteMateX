@@ -54,27 +54,27 @@ $ npm run dev
 
 | Symbol        | Shortcut      | Function  |
 | :-------------: | ------------- | --------------- |
-| <img src="src/img/ui/icon-load.png" > | - | Loads a file.<br>Supported formats: SpritemateX (SPMX) |
-| <img src="src/img/ui/icon-save.png" > | - | Saves a file.<br>Supported formats: SpritemateX (SPMX), Kick / ACME / XCI ASM source (ASM), Binary (BIN) |
-| <img src="src/img/ui/icon-undo.png" > | z | Undo. For when you screwed up. |
-| <img src="src/img/ui/icon-redo.png" > | shift + z | Redo. For when you realized it wasn't that bad |
-| <img src="src/img/ui/icon-draw.png" > | d | Draw pixels |
-| <img src="src/img/ui/icon-fill.png" > | f | Flood fill |
-| <img src="src/img/ui/icon-erase.png" > | e | eraser |
-| <img src="src/img/ui/icon-move.png" > | m | move |
+| <img src="public/ui/icon-load.png" > | - | Loads a file.<br>Supported formats: SpritemateX (SPMX) |
+| <img src="public/ui/icon-save.png" > | - | Saves a file.<br>Supported formats: SpritemateX (SPMX), Kick / ACME / XCI ASM source (ASM), Binary (BIN) |
+| <img src="public/ui/icon-undo.png" > | z | Undo. For when you screwed up. |
+| <img src="public/ui/icon-redo.png" > | shift + z | Redo. For when you realized it wasn't that bad |
+| <img src="public/ui/icon-draw.png" > | d | Draw pixels |
+| <img src="public/ui/icon-fill.png" > | f | Flood fill |
+| <img src="public/ui/icon-erase.png" > | e | eraser |
+| <img src="public/ui/icon-move.png" > | m | move |
 
 ## Editor window
 
 | Symbol        | Shortcut      | Function  |
 | :-------------: | ------------- | --------------- |
-| <img src="src/img/ui/icon-shift-left.png" > | - | Shift sprite left |
-| <img src="src/img/ui/icon-shift-right.png" > | - | Shift sprite right |
-| <img src="src/img/ui/icon-shift-up.png" > | - | Shift sprite up |
-| <img src="src/img/ui/icon-shift-down.png" > | - | Shift sprite down |
-| <img src="src/img/ui/icon-flip-horizontal.png" > | - | Flip sprite horizontal |
-| <img src="src/img/ui/icon-flip-vertical.png" > | - | Flip sprite vertical |
-| <img src="src/img/ui/icon-grid.png" > | - | Toggles grid display on/off |
-| <img src="src/img/ui/icon-zoom-plus.png" ><img src="src/img/ui/icon-zoom-minus.png" > | - | Zooms window in/out |
+| <img src="public/ui/icon-shift-left.png" > | - | Shift sprite left |
+| <img src="public/ui/icon-shift-right.png" > | - | Shift sprite right |
+| <img src="public/ui/icon-shift-up.png" > | - | Shift sprite up |
+| <img src="public/ui/icon-shift-down.png" > | - | Shift sprite down |
+| <img src="public/ui/icon-flip-horizontal.png" > | - | Flip sprite horizontal |
+| <img src="public/ui/icon-flip-vertical.png" > | - | Flip sprite vertical |
+| <img src="public/ui/icon-grid.png" > | - | Toggles grid display on/off |
+| <img src="public/ui/icon-zoom-plus.png" ><img src="public/ui/icon-zoom-minus.png" > | - | Zooms window in/out |
 |  | 1,2 | Select individual color, transparent |
 |  | shift + mouse | delete pixel |
 
@@ -82,35 +82,35 @@ $ npm run dev
 
 | Symbol        | Shortcut      | Function  |
 | :-------------: | ------------- | --------------- |
-| <img src="src/img/ui/icon-preview-overlay.png" > | - | Overlay next sprite |
-| <img src="src/img/ui/icon-zoom-plus.png" ><img src="src/img/ui/icon-zoom-minus.png" > | - | Zooms window in/out |
+| <img src="public/ui/icon-preview-overlay.png" > | - | Overlay next sprite |
+| <img src="public/ui/icon-zoom-plus.png" ><img src="public/ui/icon-zoom-minus.png" > | - | Zooms window in/out |
 
 ## Sprite list window
 
 | Symbol        | Shortcut      | Function  |
 | :-------------: | ------------- | --------------- |
-| <img src="src/img/ui/icon-list-new.png" > | - | Create new sprite |
-| <img src="src/img/ui/icon-list-trash.png" > | - | Delete selected sprite |
-| <img src="src/img/ui/icon-list-copy.png" > | - | Copy sprite |
-| <img src="src/img/ui/icon-list-paste.png" > | - | Paste sprite |
-| <img src="src/img/ui/icon-grid.png" > | - | Toggles grid display on/off |
-| <img src="src/img/ui/icon-list-add-animate.png" > | - | Adds Sprite to Animation Set |
-| <img src="src/img/ui/icon-zoom-plus.png" ><img src="src/img/ui/icon-zoom-minus.png" > | - | Zooms window in/out |
+| <img src="public/ui/icon-list-new.png" > | - | Create new sprite |
+| <img src="public/ui/icon-list-trash.png" > | - | Delete selected sprite |
+| <img src="public/ui/icon-list-copy.png" > | - | Copy sprite |
+| <img src="public/ui/icon-list-paste.png" > | - | Paste sprite |
+| <img src="public/ui/icon-grid.png" > | - | Toggles grid display on/off |
+| <img src="public/ui/icon-list-add-animate.png" > | - | Adds Sprite to Animation Set |
+| <img src="public/ui/icon-zoom-plus.png" ><img src="public/ui/icon-zoom-minus.png" > | - | Zooms window in/out |
 | | cursor left & right | cycle through sprite list |
 
 ## Animation window
 
 | Symbol        | Shortcut      | Function  |
 | :-------------: | ------------- | --------------- |
-| <img src="src/img/ui/icon-zoom-plus.png" ><img src="src/img/ui/icon-zoom-minus.png" > | - | Zooms window in/out |
+| <img src="public/ui/icon-zoom-plus.png" ><img src="public/ui/icon-zoom-minus.png" > | - | Zooms window in/out |
 
 ## Animation Set window
 
 | Symbol        | Shortcut      | Function  |
 | :-------------: | ------------- | --------------- |
-| <img src="src/img/ui/icon-grid.png" > | - | Toggles grid display on/off |
-| <img src="src/img/ui/icon-zoom-plus.png" ><img src="src/img/ui/icon-zoom-minus.png" > | - | Zooms window in/out |
-| <img src="src/img/ui/icon-list-trash.png" > | - | Delete selected sprite |
+| <img src="public/ui/icon-grid.png" > | - | Toggles grid display on/off |
+| <img src="public/ui/icon-zoom-plus.png" ><img src="public/ui/icon-zoom-minus.png" > | - | Zooms window in/out |
+| <img src="public/ui/icon-list-trash.png" > | - | Delete selected sprite |
 
 ## Some useful hints
 
