@@ -11,5 +11,5 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets', // Default asset directory, you can change if needed
   },
-  base: '/', // Make sure this is correct for production
+  base: '/spritematex/', // Make sure this is correct for production
 });
