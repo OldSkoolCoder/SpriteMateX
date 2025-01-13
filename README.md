@@ -120,6 +120,9 @@ $ npm run dev
 
 ## Changelog
 
+### V0.41
+#### Updated NodeJS to Version 22 and changed to Vite Web Framework.
+
 ### V0.4
 #### Added Animation Set.
 
