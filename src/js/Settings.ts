@@ -1,4 +1,3 @@
-import $ from "jquery";
 import { dom } from "./helper";
 
 export default class Settings {

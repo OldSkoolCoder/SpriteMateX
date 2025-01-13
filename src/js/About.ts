@@ -1,4 +1,3 @@
-import $ from "jquery";
 import { dom } from "./helper";
 export default class About {
   constructor(public window: number, public config, public eventhandler) {
@@ -8,7 +7,7 @@ export default class About {
 
     const template = `
     <div id="info">
-        <img autofocus src="img/logo-menu.svg" width="300px" id="logo" alt="spritemateX">
+        <img autofocus src="logo-menu.svg" width="300px" id="logo" alt="SpritemateX">
         <p>The <s>Commodore 64</s> Commander X16 sprite editor,
         v${this.config.version.toFixed(2)}</p>
 
@@ -16,7 +15,11 @@ export default class About {
             <h1>Release notes</h1>
             <h2>This is a clone of the source code for SpriteMate for the Commodore 64 (<a href="https://spritemate.com">spritemate.com</a>)</h2>
 
-            <h1>V0.40</h1>
+            <h1>V0.41</h1>
+            <p>
+            - Updated The NodeJS to Version 22 using the Vite Framework
+            </p>
+
             <p>
             - Added the ability to animate a set of sprites.</br>
             - Organise the animated frames.</br>

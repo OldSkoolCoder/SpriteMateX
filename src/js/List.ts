@@ -1,4 +1,3 @@
-import $ from "jquery";
 import { dom } from "./helper";
 import Window_Controls from "./Window_Controls";
 
@@ -25,20 +24,20 @@ export default class List extends Window_Controls {
     const template = `
       <div class="window_menu">
       <div class="icons-zoom-area">
-          <img src="img/ui/icon-zoom-plus.png" class="icon-hover" id="icon-list-zoom-in" title="zoom in">
-          <img src="img/ui/icon-zoom-minus.png" class="icon-hover" id="icon-list-zoom-out" title="zoom out">
-          <img src="img/ui/icon-grid.png" class="icon-hover" id="icon-list-grid" title="toggle sprite borders">
+          <img src="ui/icon-zoom-plus.png" class="icon-hover" id="icon-list-zoom-in" title="zoom in">
+          <img src="ui/icon-zoom-minus.png" class="icon-hover" id="icon-list-zoom-out" title="zoom out">
+          <img src="ui/icon-grid.png" class="icon-hover" id="icon-list-grid" title="toggle sprite borders">
       </div>
       <div class="icons-zoom-area">
-        <img src="img/ui/icon-list-new.png" class="icon-hover" id="icon-list-new" title="new sprite (shift + n)">
-        <img src="img/ui/icon-list-copy.png" class="icon-hover" id="icon-list-copy" title="copy sprite (shift + c)">
-        <img src="img/ui/icon-list-paste.png" class="icon-hover" id="icon-list-paste" title="paste sprite (shift + v)">
-        <img src="img/ui/icon-list-duplicate.png" class="icon-hover" id="icon-list-duplicate" title="duplicate sprite (shift + d)">
+        <img src="ui/icon-list-new.png" class="icon-hover" id="icon-list-new" title="new sprite (shift + n)">
+        <img src="ui/icon-list-copy.png" class="icon-hover" id="icon-list-copy" title="copy sprite (shift + c)">
+        <img src="ui/icon-list-paste.png" class="icon-hover" id="icon-list-paste" title="paste sprite (shift + v)">
+        <img src="ui/icon-list-duplicate.png" class="icon-hover" id="icon-list-duplicate" title="duplicate sprite (shift + d)">
       </div>
       <div class="icons-zoom-area">
-        <img src="img/ui/icon-list-add-animate.png" class="icon-hover" id="icon-list-add-animate" title="add to animation">
+        <img src="ui/icon-list-add-animate.png" class="icon-hover" id="icon-list-add-animate" title="add to animation">
       </div>
-        <img src="img/ui/icon-list-trash.png" class="icon-right icon-hover" id="icon-list-delete" title="delete sprite (shift + x)">
+        <img src="ui/icon-list-trash.png" class="icon-right icon-hover" id="icon-list-delete" title="delete sprite (shift + x)">
       </div>
       <div id="spritelist"></div>
     `;

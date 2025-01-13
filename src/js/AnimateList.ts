@@ -1,4 +1,3 @@
-import $ from "jquery";
 import { dom } from "./helper";
 import Window_Controls from "./Window_Controls";
 
@@ -28,11 +27,11 @@ export default class AnimateList extends Window_Controls {
     const template = `
       <div class="window_menu">
       <div class="icons-zoom-area">
-          <img src="img/ui/icon-zoom-plus.png" class="icon-hover" id="icon-animatelist-zoom-in" title="zoom in">
-          <img src="img/ui/icon-zoom-minus.png" class="icon-hover" id="icon-animatelist-zoom-out" title="zoom out">
-          <img src="img/ui/icon-grid.png" class="icon-hover" id="icon-animatelist-grid" title="toggle sprite borders">
+          <img src="ui/icon-zoom-plus.png" class="icon-hover" id="icon-animatelist-zoom-in" title="zoom in">
+          <img src="ui/icon-zoom-minus.png" class="icon-hover" id="icon-animatelist-zoom-out" title="zoom out">
+          <img src="ui/icon-grid.png" class="icon-hover" id="icon-animatelist-grid" title="toggle sprite borders">
       </div>
-        <img src="img/ui/icon-list-trash.png" class="icon-right icon-hover" id="icon-animatelist-delete" title="remove sprite">
+        <img src="ui/icon-list-trash.png" class="icon-right icon-hover" id="icon-animatelist-delete" title="remove sprite">
       </div>
       <div id="animatelist"></div>
     `;

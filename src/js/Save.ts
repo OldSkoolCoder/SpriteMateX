@@ -1,4 +1,3 @@
-import $ from "jquery";
 import { dom, status } from "./helper";
 import Palette from "./Palette";
 

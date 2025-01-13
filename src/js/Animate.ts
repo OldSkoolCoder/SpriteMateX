@@ -30,8 +30,8 @@ export default class Animate extends Window_Controls {
 
     const template = `
       <div class="window_menu">
-        <img src="img/ui/icon-zoom-plus.png" class="icon-hover" id="icon-animate-zoom-in" title="zoom in">
-        <img src="img/ui/icon-zoom-minus.png" class="icon-hover" id="icon-animate-zoom-out" title="zoom out">
+        <img src="ui/icon-zoom-plus.png" class="icon-hover" id="icon-animate-zoom-in" title="zoom in">
+        <img src="ui/icon-zoom-minus.png" class="icon-hover" id="icon-animate-zoom-out" title="zoom out">
       </div>
       <div id="animate-canvas"></div>
     `;

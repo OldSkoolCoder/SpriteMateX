@@ -1,6 +1,6 @@
 export function get_config() {
   const config = {
-    version: 0.40,
+    version: 0.41,
     sprite_x: 32,
     sprite_y: 32,
     colour_depth: 16,

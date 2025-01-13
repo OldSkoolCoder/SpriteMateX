@@ -6,10 +6,6 @@
   - comment & uncomment 2 lines of code in update_ui in this file
 */
 
-import $ from "jquery";
-import "../css/jquery-ui.css";
-import "../css/stylesheet.css";
-
 import List from "./List";
 import About from "./About";
 import Tools from "./Tools";
@@ -348,13 +344,13 @@ class App {
       dom.attr(
         "#icon-preview-overlay",
         "src",
-        "img/ui/icon-preview-overlay-hi.png"
+        "ui/icon-preview-overlay-hi.png"
       );
     } else {
       dom.attr(
         "#icon-preview-overlay",
         "src",
-        "img/ui/icon-preview-overlay.png"
+        "ui/icon-preview-overlay.png"
       );
     }
 
@@ -601,37 +597,37 @@ KKKKKKKKK    KKKKKKK   EEEEEEEEEEEEEEEEEEEEEE       YYYYYYYYYYYYY        SSSSSSS
         if (e.key == "m") {
           this.mode = "move";
           status("Move mode");
-          dom.attr("#image-icon-move", "src", "img/ui/icon-move-hi.png");
-          dom.attr("#image-icon-draw", "src", "img/ui/icon-draw.png");
-          dom.attr("#image-icon-erase", "src", "img/ui/icon-erase.png");
-          dom.attr("#image-icon-fill", "src", "img/ui/icon-fill.png");
+          dom.attr("#image-icon-move", "src", "ui/icon-move-hi.png");
+          dom.attr("#image-icon-draw", "src", "ui/icon-draw.png");
+          dom.attr("#image-icon-erase", "src", "ui/icon-erase.png");
+          dom.attr("#image-icon-fill", "src", "ui/icon-fill.png");
         }
 
         if (e.key == "d") {
           this.mode = "draw";
           status("Draw mode");
-          dom.attr("#image-icon-move", "src", "img/ui/icon-move.png");
-          dom.attr("#image-icon-draw", "src", "img/ui/icon-draw-hi.png");
-          dom.attr("#image-icon-erase", "src", "img/ui/icon-erase.png");
-          dom.attr("#image-icon-fill", "src", "img/ui/icon-fill.png");
+          dom.attr("#image-icon-move", "src", "ui/icon-move.png");
+          dom.attr("#image-icon-draw", "src", "ui/icon-draw-hi.png");
+          dom.attr("#image-icon-erase", "src", "ui/icon-erase.png");
+          dom.attr("#image-icon-fill", "src", "ui/icon-fill.png");
         }
 
         if (e.key == "e") {
           this.mode = "erase";
           status("Erase mode");
-          dom.attr("#image-icon-move", "src", "img/ui/icon-move.png");
-          dom.attr("#image-icon-draw", "src", "img/ui/icon-draw.png");
-          dom.attr("#image-icon-erase", "src", "img/ui/icon-erase-hi.png");
-          dom.attr("#image-icon-fill", "src", "img/ui/icon-fill.png");
+          dom.attr("#image-icon-move", "src", "ui/icon-move.png");
+          dom.attr("#image-icon-draw", "src", "ui/icon-draw.png");
+          dom.attr("#image-icon-erase", "src", "ui/icon-erase-hi.png");
+          dom.attr("#image-icon-fill", "src", "ui/icon-fill.png");
         }
 
         if (e.key == "f") {
           this.mode = "fill";
           status("Fill mode");
-          dom.attr("#image-icon-move", "src", "img/ui/icon-move.png");
-          dom.attr("#image-icon-draw", "src", "img/ui/icon-draw.png");
-          dom.attr("#image-icon-erase", "src", "img/ui/icon-erase.png");
-          dom.attr("#image-icon-fill", "src", "img/ui/icon-fill-hi.png");
+          dom.attr("#image-icon-move", "src", "ui/icon-move.png");
+          dom.attr("#image-icon-draw", "src", "ui/icon-draw.png");
+          dom.attr("#image-icon-erase", "src", "ui/icon-erase.png");
+          dom.attr("#image-icon-fill", "src", "ui/icon-fill-hi.png");
         }
 
         if (e.key == "1") {
@@ -1157,37 +1153,37 @@ TTTTTT  T:::::T  TTTTTT O::::::O   O::::::O::::::O   O::::::O   L:::::L         
     dom.sel("#icon-move").onclick = () => {
       this.mode = "move";
       status("Move mode");
-      dom.attr("#image-icon-move", "src", "img/ui/icon-move-hi.png");
-      dom.attr("#image-icon-draw", "src", "img/ui/icon-draw.png");
-      dom.attr("#image-icon-erase", "src", "img/ui/icon-erase.png");
-      dom.attr("#image-icon-fill", "src", "img/ui/icon-fill.png");
+      dom.attr("#image-icon-move", "src", "ui/icon-move-hi.png");
+      dom.attr("#image-icon-draw", "src", "ui/icon-draw.png");
+      dom.attr("#image-icon-erase", "src", "ui/icon-erase.png");
+      dom.attr("#image-icon-fill", "src", "ui/icon-fill.png");
     };
 
     dom.sel("#icon-draw").onclick = () => {
       this.mode = "draw";
       status("Draw mode");
-      dom.attr("#image-icon-move", "src", "img/ui/icon-move.png");
-      dom.attr("#image-icon-draw", "src", "img/ui/icon-draw-hi.png");
-      dom.attr("#image-icon-erase", "src", "img/ui/icon-erase.png");
-      dom.attr("#image-icon-fill", "src", "img/ui/icon-fill.png");
+      dom.attr("#image-icon-move", "src", "ui/icon-move.png");
+      dom.attr("#image-icon-draw", "src", "ui/icon-draw-hi.png");
+      dom.attr("#image-icon-erase", "src", "ui/icon-erase.png");
+      dom.attr("#image-icon-fill", "src", "ui/icon-fill.png");
     };
 
     dom.sel("#icon-erase").onclick = () => {
       this.mode = "erase";
       status("Erase mode");
-      dom.attr("#image-icon-move", "src", "img/ui/icon-move.png");
-      dom.attr("#image-icon-draw", "src", "img/ui/icon-draw.png");
-      dom.attr("#image-icon-erase", "src", "img/ui/icon-erase-hi.png");
-      dom.attr("#image-icon-fill", "src", "img/ui/icon-fill.png");
+      dom.attr("#image-icon-move", "src", "ui/icon-move.png");
+      dom.attr("#image-icon-draw", "src", "ui/icon-draw.png");
+      dom.attr("#image-icon-erase", "src", "ui/icon-erase-hi.png");
+      dom.attr("#image-icon-fill", "src", "ui/icon-fill.png");
     };
 
     dom.sel("#icon-fill").onclick = () => {
       this.mode = "fill";
       status("Fill mode");
-      dom.attr("#image-icon-move", "src", "img/ui/icon-move.png");
-      dom.attr("#image-icon-draw", "src", "img/ui/icon-draw.png");
-      dom.attr("#image-icon-erase", "src", "img/ui/icon-erase.png");
-      dom.attr("#image-icon-fill", "src", "img/ui/icon-fill-hi.png");
+      dom.attr("#image-icon-move", "src", "ui/icon-move.png");
+      dom.attr("#image-icon-draw", "src", "ui/icon-draw.png");
+      dom.attr("#image-icon-erase", "src", "ui/icon-erase.png");
+      dom.attr("#image-icon-fill", "src", "ui/icon-fill-hi.png");
     };
 
     /*
