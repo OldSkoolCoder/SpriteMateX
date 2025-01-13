@@ -20,6 +20,7 @@ export default class About {
             - Updated The NodeJS to Version 22 using the Vite Framework
             </p>
 
+            <h1>V0.40</h1>
             <p>
             - Added the ability to animate a set of sprites.</br>
             - Organise the animated frames.</br>
