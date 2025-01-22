@@ -1,0 +1,12 @@
+services:
+  spritematex-dockerfile:
+    container_name: "spritematex"
+    build: .
+    ports:
+      - "8080:8080"
+
+  # spritematex:
+  #   container_name: "spritematex"
+  #   image: oldskoolcoder/spritematex:latest
+  #   ports:
+  #     - "8080:8080"
